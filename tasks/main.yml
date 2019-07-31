@@ -1,0 +1,16 @@
+---
+- name: install update-motd
+  package:
+    name: update-motd
+    state: present
+
+- name: install/update the warning message 
+  template:
+    src: 10-ansible-warning
+    dest: /etc/update-motd.d/
+    mode: 755
+
+- name: remove standard help
+  file:
+    dest: /etc/update-motd.d/10-help-text
+    state: absent

@@ -1,0 +1,11 @@
+galaxy_info:
+  author: Sitewards
+  description: Adds a hint to the welcome screen that machine is provisioned by Ansible.
+  company: Sitewards
+  license: OSL-3.0
+
+  min_ansible_version: 2.4
+
+  galaxy_tags: []
+
+dependencies: []

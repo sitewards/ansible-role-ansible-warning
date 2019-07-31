@@ -1,0 +1,17 @@
+#!/bin/sh
+
+printf "\n"
+printf "            _              _ _     _                        \n"
+printf "           / \   _ __  ___(_) |__ | | ___                   \n"
+printf "          / _ \ | '_ \/ __| | '_ \| |/ _ \                  \n"
+printf "         / ___ \| | | \__ \ | |_) | |  __/                  \n"
+printf "        /_/   \_\_| |_|___/_|_.__/|_|\___|                  \n"
+printf "                                                            \n"
+printf "\n"
+printf "This system is provisioned by Ansible, an automation tool.  \n"
+printf "Please do not apply changes manually, otherwise they will   \n"
+printf "be overriden on the next Ansible execution, instead please  \n"
+printf "update the Ansible configuration.                           \n"
+printf "\n"
+printf "Last Ansible run on this machine: {{ ansible_date_time.date }} {{ ansible_date_time.time }} {{ ansible_date_time.tz }} \n"
+printf "\n"
